@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List</title>
     <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
       <menu>
-        <a href="#"><img class="resetAll" src="" /></a>
-        <a href="#"><img class="addNew" src="" /></a>
+        <a href="#"><i class="far fa-trash-alt"></i></a>
+        <a href="#"><i class="fas fa-plus"></i></a>
       </menu>
       <h1>Cose da fare</h1>
     </header>
     <main>
       <div class="addNew">
-        <label for="nome">To Do</label>
         <input type="text" id="nome" name="nome_utente" placeholder="Aggiungi un elemento" />
-        <button type="button"><img src="#" /></button>
+        <button type="button"><i class="far fa-arrow-alt-circle-right"></i></button>
       </div>
       <div class="addedElements">
         <input type="checkbox" id="miaCheckbox" name="opzione1" value="valore1" />
@@ -27,7 +33,7 @@
             <li></li>
           </ul>
         </label>
-        <button class="resetOnlyOne" type="button"><img src="#" /></button>
+        <button class="resetOnlyOne" type="button"><i class="far fa-trash-alt"></i></button>
       </div>
     </main>
 
