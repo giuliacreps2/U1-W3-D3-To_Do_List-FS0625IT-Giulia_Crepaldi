@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
     <header>
@@ -16,12 +16,18 @@
     </header>
     <main>
       <div class="addNew">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome_utente" placeholder="Inserisci il tuo nome" />
+        <label for="nome">To Do</label>
+        <input type="text" id="nome" name="nome_utente" placeholder="Aggiungi un elemento" />
         <button type="button"><img src="#" /></button>
-        <ul>
-          <li></li>
-        </ul>
+      </div>
+      <div class="addedElements">
+        <input type="checkbox" id="miaCheckbox" name="opzione1" value="valore1" />
+        <label for="miaCheckbox">
+          <ul>
+            <li></li>
+          </ul>
+        </label>
+        <button class="resetOnlyOne" type="button"><img src="#" /></button>
       </div>
     </main>
 
