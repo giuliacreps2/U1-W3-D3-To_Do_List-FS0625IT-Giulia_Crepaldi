@@ -36,6 +36,15 @@ menu a {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-left: 15px;
 }
+menu a:has(.fa-plus):hover {
+  background-color: #0b2418;
+  color: #36b679;
+}
+
+menu a:has(.fa-trash-alt):hover {
+  background-color: #5c1e18;
+  color: #e74c3c;
+}
 
 h1 {
   font-family: Helvetica, Arial, sans-serif;
